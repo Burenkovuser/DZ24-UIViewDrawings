@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBFF81B91E38FB91007605C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF81B81E38FB91007605C2 /* main.m */; };
+		FBFF81BC1E38FB91007605C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF81BB1E38FB91007605C2 /* AppDelegate.m */; };
+		FBFF81BF1E38FB91007605C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF81BE1E38FB91007605C2 /* ViewController.m */; };
+		FBFF81C21E38FB91007605C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFF81C01E38FB91007605C2 /* Main.storyboard */; };
+		FBFF81C41E38FB91007605C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFF81C31E38FB91007605C2 /* Assets.xcassets */; };
+		FBFF81C71E38FB91007605C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFF81C51E38FB91007605C2 /* LaunchScreen.storyboard */; };
+		FBFF81D01E38FC4E007605C2 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF81CF1E38FC4E007605C2 /* DrawingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBFF81B41E38FB91007605C2 /* DZ24 UIView Drawings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ24 UIView Drawings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFF81B81E38FB91007605C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBFF81BA1E38FB91007605C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBFF81BB1E38FB91007605C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBFF81BD1E38FB91007605C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBFF81BE1E38FB91007605C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBFF81C11E38FB91007605C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBFF81C31E38FB91007605C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFF81C61E38FB91007605C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBFF81C81E38FB91007605C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFF81CE1E38FC4E007605C2 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		FBFF81CF1E38FC4E007605C2 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFF81B11E38FB91007605C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBFF81AB1E38FB91007605C2 = {
+			isa = PBXGroup;
+			children = (
+				FBFF81B61E38FB91007605C2 /* DZ24 UIView Drawings */,
+				FBFF81B51E38FB91007605C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFF81B51E38FB91007605C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFF81B41E38FB91007605C2 /* DZ24 UIView Drawings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFF81B61E38FB91007605C2 /* DZ24 UIView Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				FBFF81CE1E38FC4E007605C2 /* DrawingView.h */,
+				FBFF81CF1E38FC4E007605C2 /* DrawingView.m */,
+				FBFF81BA1E38FB91007605C2 /* AppDelegate.h */,
+				FBFF81BB1E38FB91007605C2 /* AppDelegate.m */,
+				FBFF81BD1E38FB91007605C2 /* ViewController.h */,
+				FBFF81BE1E38FB91007605C2 /* ViewController.m */,
+				FBFF81C01E38FB91007605C2 /* Main.storyboard */,
+				FBFF81C31E38FB91007605C2 /* Assets.xcassets */,
+				FBFF81C51E38FB91007605C2 /* LaunchScreen.storyboard */,
+				FBFF81C81E38FB91007605C2 /* Info.plist */,
+				FBFF81B71E38FB91007605C2 /* Supporting Files */,
+			);
+			path = "DZ24 UIView Drawings";
+			sourceTree = "<group>";
+		};
+		FBFF81B71E38FB91007605C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBFF81B81E38FB91007605C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFF81B31E38FB91007605C2 /* DZ24 UIView Drawings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFF81CB1E38FB91007605C2 /* Build configuration list for PBXNativeTarget "DZ24 UIView Drawings" */;
+			buildPhases = (
+				FBFF81B01E38FB91007605C2 /* Sources */,
+				FBFF81B11E38FB91007605C2 /* Frameworks */,
+				FBFF81B21E38FB91007605C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ24 UIView Drawings";
+			productName = "DZ24 UIView Drawings";
+			productReference = FBFF81B41E38FB91007605C2 /* DZ24 UIView Drawings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFF81AC1E38FB91007605C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vasilii Burenkov";
+				TargetAttributes = {
+					FBFF81B31E38FB91007605C2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBFF81AF1E38FB91007605C2 /* Build configuration list for PBXProject "DZ24 UIView Drawings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFF81AB1E38FB91007605C2;
+			productRefGroup = FBFF81B51E38FB91007605C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFF81B31E38FB91007605C2 /* DZ24 UIView Drawings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFF81B21E38FB91007605C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFF81C71E38FB91007605C2 /* LaunchScreen.storyboard in Resources */,
+				FBFF81C41E38FB91007605C2 /* Assets.xcassets in Resources */,
+				FBFF81C21E38FB91007605C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFF81B01E38FB91007605C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFF81BF1E38FB91007605C2 /* ViewController.m in Sources */,
+				FBFF81BC1E38FB91007605C2 /* AppDelegate.m in Sources */,
+				FBFF81B91E38FB91007605C2 /* main.m in Sources */,
+				FBFF81D01E38FC4E007605C2 /* DrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBFF81C01E38FB91007605C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFF81C11E38FB91007605C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBFF81C51E38FB91007605C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFF81C61E38FB91007605C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBFF81C91E38FB91007605C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFF81CA1E38FB91007605C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFF81CC1E38FB91007605C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ24 UIView Drawings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burenkov.DZ24-UIView-Drawings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBFF81CD1E38FB91007605C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ24 UIView Drawings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burenkov.DZ24-UIView-Drawings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFF81AF1E38FB91007605C2 /* Build configuration list for PBXProject "DZ24 UIView Drawings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFF81C91E38FB91007605C2 /* Debug */,
+				FBFF81CA1E38FB91007605C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFF81CB1E38FB91007605C2 /* Build configuration list for PBXNativeTarget "DZ24 UIView Drawings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFF81CC1E38FB91007605C2 /* Debug */,
+				FBFF81CD1E38FB91007605C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFF81AC1E38FB91007605C2 /* Project object */;
+}
