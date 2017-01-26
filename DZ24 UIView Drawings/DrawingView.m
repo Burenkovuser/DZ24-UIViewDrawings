@@ -45,16 +45,43 @@
     CGFloat pointY = arc4random_uniform((UInt32)CGRectGetMaxY(rect) - size);
     CGRect rectStar = CGRectMake(pointX, pointY, size, size);
     
+    //origin прямоугольника будет генерироваться пока не появится в незанятом месте
     while (![self  placeForRectIsFree:rectStar andRects:self.rects]) {
         CGFloat pointX = arc4random_uniform((UInt32)CGRectGetMaxX(rect) - size);
         CGFloat pointY = arc4random_uniform((UInt32)CGRectGetMaxY(rect) - size);
         rectStar = CGRectMake(pointX, pointY, size, size);
     }
+    
     [self.rects addObject:NSStringFromCGRect(rectStar)];
     return rectStar;
 }
 
-
+-(void) createSrarInRect:(CGRect) rect {
+    CGRect rectStar = [self createRandomRectForStar:rect];
+    
+    CGFloat radiusStar = rectStar.size.width / 2;
+    CGFloat centerStarX = CGRectGetMidX(rectStar);
+    CGFloat centerStarY = CGRectGetMidY(rectStar);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGPoint vertexStar;// вершина звезды
+    CGFloat angle = (4 * M_PI)/5; //угол делим полный круг на 5 частей
+    
+    CGContextSetLineWidth(context, 1.0); // Line Width
+    CGContextSetStrokeColorWithColor(context, [self randomColor].CGColor);// цвет обводки
+    CGContextSetFillColorWithColor (context, [self randomColor].CGColor);//цвет заполнения
+    
+    //drawing star
+    CGContextMoveToPoint(context, centerStarX, centerStarY - radiusStar);
+    for (int i = 0; i < 6; i++) {
+        vertexStar.x = radiusStar * sin(i * angle);
+        vertexStar.y = radiusStar * cos(i * angle);
+        
+        CGContextAddLineToPoint(context, centerStarX - vertexStar.x, centerStarY - vertexStar.y);
+    }
+    CGContextFillPath(context);
+}
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -62,7 +89,7 @@
  
     self.rects = [[NSMutableArray alloc] init];
     for (int i = 0; i < 5 ; i++) {
-        [self ]
+        [self createSrarInRect: rect];
     }
      
 }
